@@ -6,11 +6,9 @@ order: 1
 
 ## About
 
-현재 삼성 그룹사 사내 폐쇄망에서 LLM 온프레미스 RAG 시스템을 구축·운영합니다. vLLM과 SGLang을 비교 평가한 뒤 SGLang을 메인 서빙 엔진으로 채택하여 운영하고 있으며, Gemma 계열 fine-tuning, Qdrant 벡터 인덱싱, BGE 임베딩 파이프라인, LangChain 기반 검색·생성 체인을 DGX Spark 환경에서 통합 관리합니다. 폐쇄망 제약 아래에서 외부 API 의존 없이 검색·요약 자동화를 수행 가능한 형태로 설계했습니다.
+5년차 응용 AI 엔지니어. 산업·공공 도메인에서 LLM 온프레미스 RAG, 산업용 컴퓨터 비전, AR, 온디바이스 AI를 다룹니다. 학습 데이터 라벨링부터 모델 학습, 후처리, AR 정합, 모바일 배포, SDK화까지 전 사이클을 단일 엔지니어 책임 범위에서 수행한 경험을 보유합니다. 온프레미스·오프라인·엣지 환경처럼 외부 의존을 최소화해야 하는 산업·공공 도메인을 지향합니다.
 
-이전 사이클에서는 공공 R&D 기관 교각 검측 AI, 싱가포르 공공기관 불법 적치물 검출, 삼성 그룹사 반도체 디지털 트윈을 담당했습니다. 공공 R&D 기관 프로젝트에서는 YOLO Detection·Segmentation·Pose 3종을 결합하여 마커 없이 객체를 인식하고 OpenCV Hu-Moment로 Z축 깊이를 추론, Unity AR Foundation으로 3D 모델을 정합했습니다. 본 검출 파이프라인을 범용 Unity Package SDK인 DTA-Core로 추상화하여 모델 교체만으로 동일 파이프라인을 재사용할 수 있도록 패키지화했습니다.
-
-학습 데이터 라벨링부터 모델 학습, 후처리, AR 정합, 모바일 배포, 그리고 SDK화까지 전 사이클을 단일 엔지니어 책임 범위에서 수행한 경험을 보유합니다. 온프레미스·오프라인·엣지 환경처럼 외부 의존을 최소화해야 하는 산업·공공 도메인에서 응용 AI를 배포하는 방향을 지향합니다.
+프로젝트 내역은 아래 Featured Projects를 참조하세요 (최근 → 과거 순).
 
 ---
 
@@ -194,11 +192,11 @@ UniCAD 3D Viewer, UniCAD Hub, AutoCAD 도면 자동화, PC공법 시공 시뮬�
 ## Tech Stack
 
 ```
-Expert (1년 이상 실프로젝트 + 트레이드오프 결정 가능):
+Expert (실프로젝트 + 트레이드오프 결정 가능):
   Unity, C#, Python, YOLO (Detection / Segmentation / Pose),
   LangChain, RAG 파이프라인, OpenCV
 
-Proficient (실프로젝트 배포 경험 + 6개월~1년):
+Proficient (실프로젝트 배포 경험):
   vLLM, SGLang, Ollama, Qdrant, BGE, PyTorch,
   AR Foundation, FastAPI, Docker, MySQL, SQLite,
   MLOps (모델 핫스왑·운영 자동화)
@@ -213,7 +211,7 @@ Familiar (POC·학습·일부 적용 경험):
 ## Career
 
 ```
-와이엠엑스(YMX) · 2024 – 현재
+와이엠엑스(YMX) · 2024 - 재직 중
   - 응용 AI Engineer
   - 주요 프로젝트: 삼성 그룹사 RAG 온프레미스, 공공 R&D 기관 교량 검측 AI,
     싱가포르 공공기관 객체 검출, 삼성 그룹사 Omniverse, 온디바이스 LLM 추론
