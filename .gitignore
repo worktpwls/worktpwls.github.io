@@ -1,0 +1,58 @@
+# Claude Code 워크플로우 내부 / Claude Code workflow internals
+# 세션 ID·체크포인트·작업 메모 등 민감 정보 포함
+.claude/
+
+# OS 메타 / OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 에디터 / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 로그·임시 / Logs and temp
+*.log
+*.tmp
+
+# 환경 변수 / Env files (절대 푸시 금지 / never commit)
+.env
+.env.*
+secrets.*
+credentials.*
+
+# 빌드 산출물 / Build artifacts (이번 레포에는 없지만 향후 대비)
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+
+# Jekyll / Chirpy
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+Gemfile.lock
+
+# LinkedIn 게시 가이드 (로컬 보관, 레포 노출 금지)
+# LinkedIn posting guides (local only, never push)
+linkedin_about.md
+linkedin_headline.md
+
+# 내부 의사결정 기록 (로컬 보관, 레포 노출 금지)
+# Internal decision log (local only, never push)
+docs/
+
+# Claude Code 룰 파일 (로컬 전용)
+# Claude Code project rules (local only)
+CLAUDE.md
+
+# 로컬 git hook (NDA 안전망)
+# Local git hooks (NDA safety net)
+.githooks/
+
